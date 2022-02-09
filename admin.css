@@ -1,0 +1,214 @@
+/* admin panel start **********************************************/
+.admin-div{
+    width: 100%;
+    height: 1024px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+}
+/* admin-left satrt */
+.admin-left{
+    width: 280px;
+    height: 1024px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.admin-left1 {
+    width: 220px;
+    height: 80px;
+    border-bottom: 1px solid #c4c4c4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    
+}
+.admin-left2 {
+   width: 280px;
+   height: 60px;
+   display: flex;
+   align-items: center;
+   position: relative;
+   margin-top: 20px;
+   margin-bottom: 5px;
+   cursor: pointer;
+}
+.admin-left2  ::after{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 100%;
+    background-color: #05b1c4;
+    left: 0;
+    top: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: .2s;
+
+    
+}
+.admin-left2:hover.admin-left2 ::after{
+    width: 8px;
+}
+.admin-left2 img{
+    width: 24px;
+    height: 24px;
+    margin-left: 20px;
+    margin-right: 10px;
+    
+}
+.admin-left3 {
+   width: 280px;
+   height: 60px;
+   display: flex;
+   align-items: center;
+   position: relative;
+   cursor: pointer;
+}
+.admin-left3  ::after{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 100%;
+    background-color: #05b1c4;
+    left: 0;
+    top: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: .2s;
+
+    
+}
+.admin-left3:hover.admin-left3 ::after{
+    width: 8px;
+}
+.admin-left3 img{
+    width: 24px;
+    height: 24px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+/* admin-left end */
+
+/* admin right start ***************************************************************/
+ /* admin top start **************/
+.admin-right{
+    width: 1000px;
+    height: 1024px;
+    background-color: #efefef;
+}
+.admin-top{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+.admin-top-div{
+    width: 25%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.admin-top-div img {
+    width: 40px;
+    height: 40px;
+}
+.admin-top-div span{
+    margin: 0 10px;
+}
+/* admin top end ****************************************/
+
+/* admin bottom satrt ***************************/
+
+.admin-bottom{
+    width: 100%;
+    height: 924px;
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: center;
+}
+
+.admin-small{
+    width: 228px;
+    height: 173px;
+    
+    background: #FFFFFF;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.small-top{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+}
+.small-img{
+    width: 80px;    
+    height: 80px;
+}
+.small-left{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 10px;
+}
+.small-h2{
+    position: absolute;
+    right: 5px;
+    top: -20px;
+    
+
+}
+.small-h6{
+    position: absolute;
+    right: 5px;
+    top: 0px;
+    color: #999999;
+    
+
+}
+.small-bottom{
+    width: 100%;
+    height: 35%;
+    position: relative;
+    margin-top: 10px;
+    padding-left: 5px;
+}
+.small-bottom h4{
+    position: absolute;
+    top: -20px;
+    
+}
+.small-bottom h6{
+    position: absolute;
+    font-size: 12px;
+    top: 2px;
+}
+
+#admin{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#admin1{
+    width: 100%;
+    height: 40%;
+    display: none;
+    flex-wrap: wrap;
+    
+}
+/* admin bottom end ******************/
+/* admin right end ***************************************************************/
+
+
+/* admin panel end **********************************************/
